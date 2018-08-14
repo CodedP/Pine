@@ -1,0 +1,120 @@
+header {
+    background-image: url("http://codedphoenix.com/wp-content/uploads/2018/08/fog.jpg");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5px 0 20px 0;
+}
+.header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    border: 2px red;
+}
+.header p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+figure {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+figure img {
+    height: 50px;
+}
+.button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 20px;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background: rgb(188, 166, 77);
+    background: -moz-linear-gradient(90deg, rgb(188, 166, 77) 0%, rgb(188, 166, 77) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(188, 166, 77) 0%, rgb(188, 166, 77) 100%);
+    background: -o-linear-gradient(90deg, rgb(188, 166, 77) 0%, rgb(188, 166, 77) 100%);
+    background: -ms-linear-gradient(90deg, rgb(188, 166, 77) 0%, rgb(188, 166, 77) 100%);
+    background: linear-gradient(0deg, rgb(188, 166, 77) 0%, rgb(188, 166, 77) 100%);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow:    0px 0px 0px rgba(0, 0, 0, 0);
+    box-shadow:         0px 0px 0px rgba(0, 0, 0, 0);
+    display: block;
+    margin: 30px 0 -20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+        @media (min-width: 400px) {
+            display: none;   
+        }
+    }
+footer h1 {
+    display: none;
+    @media (min-width: 600px) {
+            display: initial;
+        }
+}
+input[type=email] {
+    border: 2px solid #999;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+    padding: 12px 24px;
+    box-sizing : border-box;
+    width: 100%;
+        @media (min-width: 600px) {
+            width: 300px;
+        }
+}
+input[type=submit] {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    background: #999;
+    color: #fff;
+    padding: 12px 24px;
+    box-sizing : border-box;
+    width: 100%;
+        @media (min-width: 600px) {
+            width: 200px;
+        }
+}
+footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    padding: 40px 0 60px 0;
+}
+footer i {
+    padding: 20px;
+    color: $gold;
+}
+footer h3 {
+    display: none;
+    @media (min-width: 600px) {
+            display: initial;
+        }
+}
+br {
+@media (min-width: 600px) {
+    display: none;
+}
+}
+form {
+    @media (min-width: 600px) {
+        padding: 40px 0 60px 0;
+    }
+}
+    
